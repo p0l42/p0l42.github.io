@@ -94,28 +94,11 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <p>Hello，这里是s0l42，心血来潮搭建了一个博客，这篇用来记录基于github和hexo的博客搭建及过程中踩过的坑。</p>
-<h1 id="所需环境"><a href="#所需环境" class="headerlink" title="所需环境"></a>所需环境</h1><p>环境：git、npm、node、hexo</p>
-<p>软件安装过程自行百度~</p>
-<h1 id="依赖安装及配置"><a href="#依赖安装及配置" class="headerlink" title="依赖安装及配置"></a>依赖安装及配置</h1><ol>
-<li>命令行中输入<code>npm install hexo -g</code>安装hexo</li>
-<li>命令行中输入<code>npm install hexo-deployer-git --save</code>，用于后续向git更新文章</li>
-</ol>
-<h1 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h1><ol>
-<li>github中新建一个repository<br><img src="/../img/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/create.png" alt="新建仓库"><blockquote>
-<p>坑点：仓库命名一定要为 <strong>用户名.github.io</strong>，否则会出现404的情况（TAT）<br><img src="/../img/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/404.png" alt="404"></p>
-</blockquote>
-</li>
-<li>修改_config.yml文件中的deploy字段，可以参考下面的下面的内容</li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">    type: git</span><br><span class="line">    repository: 刚刚生成的repository的地址</span><br><span class="line">    branch: master</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>坑点：这里还有一个坑点，注意看branch是master还是main，需要和仓库的分支保持一致<br><img src="/../img/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/branch.png" alt="branch"><br>3. 输入<code>hexo g</code>，生成html文件<br>tips: 为了防止推上去的文章有问题，可以先使用<code>hexo s</code>本地部署看一下效果</p>
-<ol start="4">
-<li>命令行输入<code>hexo d</code>将博客内容推送到github上，此时访问 用户名.github.io 就可以看到博客内容了~<br><img src="/../img/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/content.png" alt="博客内容"></li>
-</ol>
-</blockquote>
-<h1 id="后续计划"><a href="#后续计划" class="headerlink" title="后续计划"></a>后续计划</h1><p>打算更博客美化以及如何写文章推送至博客内容，敬请期待~<br>（其实是目前还在摸索当中，说起来markdown写的还蛮舒服的）</p>
-
+        
+          <p class="article-more-link">
+            <a href="/2025/02/23/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
